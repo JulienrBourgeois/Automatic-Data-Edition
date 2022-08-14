@@ -1,0 +1,1320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C00FDCD28A8261F00E6136A /* Automatic Smart shot main logo-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FDCC28A8261F00E6136A /* Automatic Smart shot main logo-3.png */; };
+		7C00FDCF28A8269800E6136A /* Automatic Smart shot main logo-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FDCE28A8269800E6136A /* Automatic Smart shot main logo-4.png */; };
+		7C00FDD128A826DA00E6136A /* Automatic Smart shot main logo-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FDD028A826DA00E6136A /* Automatic Smart shot main logo-5.png */; };
+		7C00FDD328A826F600E6136A /* Automatic Smart shot main logo-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FDD228A826F600E6136A /* Automatic Smart shot main logo-6.png */; };
+		7C00FDD528A8270E00E6136A /* Automatic Smart shot main logo-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FDD428A8270E00E6136A /* Automatic Smart shot main logo-7.png */; };
+		7C00FDD728A8272400E6136A /* Automatic Smart shot main logo-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FDD628A8272400E6136A /* Automatic Smart shot main logo-8.png */; };
+		7C00FDD928A8273900E6136A /* Automatic Smart shot main logo-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FDD828A8273900E6136A /* Automatic Smart shot main logo-9.png */; };
+		7C00FDDB28A8276E00E6136A /* Automatic Smart shot main logo-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FDDA28A8276E00E6136A /* Automatic Smart shot main logo-10.png */; };
+		7C00FDDD28A8278B00E6136A /* Automatic Smart shot main logo-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FDDC28A8278B00E6136A /* Automatic Smart shot main logo-11.png */; };
+		7C00FDDF28A827A500E6136A /* Automatic Smart shot main logo-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FDDE28A827A500E6136A /* Automatic Smart shot main logo-12.png */; };
+		7C00FDE128A827BA00E6136A /* Automatic Smart shot main logo-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FDE028A827BA00E6136A /* Automatic Smart shot main logo-13.png */; };
+		7C00FDE328A827CB00E6136A /* Automatic Smart shot main logo-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C00FDE228A827CB00E6136A /* Automatic Smart shot main logo-14.png */; };
+		7C082AE928A223D30089E9FD /* InformationInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C082AE828A223D30089E9FD /* InformationInterfaceController.swift */; };
+		7C2DF8DF28A77AE2003C2153 /* Automatic Smart shot main logo-3.png 01-22-25-946.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2DF8DE28A77AE2003C2153 /* Automatic Smart shot main logo-3.png 01-22-25-946.png */; };
+		7C2DF8E328A77B80003C2153 /* Automatic Smart shot main logo-3.png 01-22-25-938.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2DF8E228A77B80003C2153 /* Automatic Smart shot main logo-3.png 01-22-25-938.png */; };
+		7C3FE03A28A47C5D008AC5C2 /* ShotInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3FE03928A47C5D008AC5C2 /* ShotInterfaceController.swift */; };
+		7C463C6328A3752400C6115F /* HelpInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C463C6228A3752400C6115F /* HelpInterfaceController.swift */; };
+		7C463C6528A375BB00C6115F /* SendInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C463C6428A375BB00C6115F /* SendInterfaceController.swift */; };
+		7C511B3928A2EE5600C82849 /* PickerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C511B3828A2EE5600C82849 /* PickerInterfaceController.swift */; };
+		7C511B3B28A2FB4000C82849 /* OtherInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C511B3A28A2FB4000C82849 /* OtherInterfaceController.swift */; };
+		7C511B3D28A3005F00C82849 /* MotionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C511B3C28A3005F00C82849 /* MotionData.swift */; };
+		7C65084628A87EF4008C9C27 /* Automatic Smart shot main logo-3.png 01-22-25-938.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C65084528A87EF4008C9C27 /* Automatic Smart shot main logo-3.png 01-22-25-938.png */; };
+		7C83F2A028A4397900A58F84 /* ConnectAnimation.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7C83F29F28A4397900A58F84 /* ConnectAnimation.sks */; };
+		7CCBA23F28A8297600FC5BCD /* 48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBA23E28A8297600FC5BCD /* 48x48.png */; };
+		7CCBA24128A829A600FC5BCD /* 55x55.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBA24028A829A600FC5BCD /* 55x55.png */; };
+		7CCBA24328A829C000FC5BCD /* 66x66.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBA24228A829C000FC5BCD /* 66x66.png */; };
+		7CCBA24528A829E700FC5BCD /* 87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBA24428A829E700FC5BCD /* 87x87.png */; };
+		7CCBA24928A82A1700FC5BCD /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBA24828A82A1700FC5BCD /* 80x80.png */; };
+		7CCBA24B28A82A2900FC5BCD /* 80x80 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBA24A28A82A2900FC5BCD /* 80x80 copy.png */; };
+		7CCBA24D28A82A6D00FC5BCD /* 172.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBA24C28A82A6D00FC5BCD /* 172.png */; };
+		7CCBA25128A82A9600FC5BCD /* 100.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBA25028A82A9600FC5BCD /* 100.png */; };
+		7CCBA25328A82AA700FC5BCD /* 102.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBA25228A82AA700FC5BCD /* 102.png */; };
+		7CCBA25528A82AB800FC5BCD /* 196.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CCBA25428A82AB800FC5BCD /* 196.png */; };
+		7CD4B44928A768EA002DCC89 /* HomeAnimation.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7CD4B44828A768EA002DCC89 /* HomeAnimation.sks */; };
+		7CEBF0C328A1DE2000ADBA4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBF0C228A1DE2000ADBA4F /* AppDelegate.swift */; };
+		7CEBF0C528A1DE2000ADBA4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBF0C428A1DE2000ADBA4F /* SceneDelegate.swift */; };
+		7CEBF0C728A1DE2000ADBA4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBF0C628A1DE2000ADBA4F /* ViewController.swift */; };
+		7CEBF0CA28A1DE2000ADBA4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEBF0C828A1DE2000ADBA4F /* Main.storyboard */; };
+		7CEBF0CC28A1DE2100ADBA4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CEBF0CB28A1DE2100ADBA4F /* Assets.xcassets */; };
+		7CEBF0CF28A1DE2100ADBA4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEBF0CD28A1DE2100ADBA4F /* LaunchScreen.storyboard */; };
+		7CEBF0DA28A1DE2100ADBA4F /* Automatic_Data_CollectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBF0D928A1DE2100ADBA4F /* Automatic_Data_CollectorTests.swift */; };
+		7CEBF0E428A1DE2100ADBA4F /* Automatic_Data_CollectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBF0E328A1DE2100ADBA4F /* Automatic_Data_CollectorUITests.swift */; };
+		7CEBF0E628A1DE2100ADBA4F /* Automatic_Data_CollectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBF0E528A1DE2100ADBA4F /* Automatic_Data_CollectorUITestsLaunchTests.swift */; };
+		7CEBF0EA28A1DE2100ADBA4F /* Automatic Data Collector WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7CEBF0E928A1DE2100ADBA4F /* Automatic Data Collector WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7CEBF0F028A1DE2100ADBA4F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEBF0EE28A1DE2100ADBA4F /* Interface.storyboard */; };
+		7CEBF0F228A1DE2200ADBA4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CEBF0F128A1DE2200ADBA4F /* Assets.xcassets */; };
+		7CEBF0F828A1DE2200ADBA4F /* Automatic Data Collector WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7CEBF0F728A1DE2200ADBA4F /* Automatic Data Collector WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7CEBF0FD28A1DE2200ADBA4F /* HomeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBF0FC28A1DE2200ADBA4F /* HomeInterfaceController.swift */; };
+		7CEBF0FF28A1DE2200ADBA4F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBF0FE28A1DE2200ADBA4F /* ExtensionDelegate.swift */; };
+		7CEBF10128A1DE2200ADBA4F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBF10028A1DE2200ADBA4F /* NotificationController.swift */; };
+		7CEBF10328A1DE2200ADBA4F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBF10228A1DE2200ADBA4F /* ComplicationController.swift */; };
+		7CEBF10528A1DE2300ADBA4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CEBF10428A1DE2300ADBA4F /* Assets.xcassets */; };
+		7CEBF11128A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBF11028A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppTests.swift */; };
+		7CEBF11B28A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBF11A28A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppUITests.swift */; };
+		7CEBF11D28A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBF11C28A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppUITestsLaunchTests.swift */; };
+		7CEBF14828A1ED1E00ADBA4F /* HomeAnimation.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7CEBF14728A1ED1E00ADBA4F /* HomeAnimation.sks */; };
+		7CFAAE9E28A367C700A8A165 /* ChoiceInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFAAE9D28A367C700A8A165 /* ChoiceInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CEBF0D628A1DE2100ADBA4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CEBF0B728A1DE2000ADBA4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CEBF0BE28A1DE2000ADBA4F;
+			remoteInfo = "Automatic Data Collector";
+		};
+		7CEBF0E028A1DE2100ADBA4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CEBF0B728A1DE2000ADBA4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CEBF0BE28A1DE2000ADBA4F;
+			remoteInfo = "Automatic Data Collector";
+		};
+		7CEBF0EB28A1DE2100ADBA4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CEBF0B728A1DE2000ADBA4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CEBF0E828A1DE2100ADBA4F;
+			remoteInfo = "Automatic Data Collector WatchKit App";
+		};
+		7CEBF0F928A1DE2200ADBA4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CEBF0B728A1DE2000ADBA4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CEBF0F628A1DE2200ADBA4F;
+			remoteInfo = "Automatic Data Collector WatchKit Extension";
+		};
+		7CEBF10D28A1DE2300ADBA4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CEBF0B728A1DE2000ADBA4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CEBF0F628A1DE2200ADBA4F;
+			remoteInfo = "Automatic Data Collector WatchKit Extension";
+		};
+		7CEBF11728A1DE2300ADBA4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CEBF0B728A1DE2000ADBA4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CEBF0E828A1DE2100ADBA4F;
+			remoteInfo = "Automatic Data Collector WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7CEBF12328A1DE2300ADBA4F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7CEBF0F828A1DE2200ADBA4F /* Automatic Data Collector WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF12728A1DE2300ADBA4F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7CEBF0EA28A1DE2100ADBA4F /* Automatic Data Collector WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7C00FDCC28A8261F00E6136A /* Automatic Smart shot main logo-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-3.png"; path = "../../../Downloads/Automatic Smart shot main logo-3.png"; sourceTree = "<group>"; };
+		7C00FDCE28A8269800E6136A /* Automatic Smart shot main logo-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-4.png"; path = "../../../Downloads/Automatic Smart shot main logo-4.png"; sourceTree = "<group>"; };
+		7C00FDD028A826DA00E6136A /* Automatic Smart shot main logo-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-5.png"; path = "../../../Downloads/Automatic Smart shot main logo-5.png"; sourceTree = "<group>"; };
+		7C00FDD228A826F600E6136A /* Automatic Smart shot main logo-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-6.png"; path = "../../../Downloads/Automatic Smart shot main logo-6.png"; sourceTree = "<group>"; };
+		7C00FDD428A8270E00E6136A /* Automatic Smart shot main logo-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-7.png"; path = "../../../Downloads/Automatic Smart shot main logo-7.png"; sourceTree = "<group>"; };
+		7C00FDD628A8272400E6136A /* Automatic Smart shot main logo-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-8.png"; path = "../../../Downloads/Automatic Smart shot main logo-8.png"; sourceTree = "<group>"; };
+		7C00FDD828A8273900E6136A /* Automatic Smart shot main logo-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-9.png"; path = "../../../Downloads/Automatic Smart shot main logo-9.png"; sourceTree = "<group>"; };
+		7C00FDDA28A8276E00E6136A /* Automatic Smart shot main logo-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-10.png"; path = "../../../Downloads/Automatic Smart shot main logo-10.png"; sourceTree = "<group>"; };
+		7C00FDDC28A8278B00E6136A /* Automatic Smart shot main logo-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-11.png"; path = "../../../Downloads/Automatic Smart shot main logo-11.png"; sourceTree = "<group>"; };
+		7C00FDDE28A827A500E6136A /* Automatic Smart shot main logo-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-12.png"; path = "../../../Downloads/Automatic Smart shot main logo-12.png"; sourceTree = "<group>"; };
+		7C00FDE028A827BA00E6136A /* Automatic Smart shot main logo-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-13.png"; path = "../../../Downloads/Automatic Smart shot main logo-13.png"; sourceTree = "<group>"; };
+		7C00FDE228A827CB00E6136A /* Automatic Smart shot main logo-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-14.png"; path = "../../../Downloads/Automatic Smart shot main logo-14.png"; sourceTree = "<group>"; };
+		7C082AE828A223D30089E9FD /* InformationInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationInterfaceController.swift; sourceTree = "<group>"; };
+		7C2DF8DE28A77AE2003C2153 /* Automatic Smart shot main logo-3.png 01-22-25-946.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-3.png 01-22-25-946.png"; path = "../../../.Trash/Automatic Smart shot main logo-3.png 01-22-25-946.png"; sourceTree = "<group>"; };
+		7C2DF8E228A77B80003C2153 /* Automatic Smart shot main logo-3.png 01-22-25-938.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-3.png 01-22-25-938.png"; path = "../../Automatic Smart shot main logo-3.png 01-22-25-938.png"; sourceTree = "<group>"; };
+		7C3FE03928A47C5D008AC5C2 /* ShotInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotInterfaceController.swift; sourceTree = "<group>"; };
+		7C463C6228A3752400C6115F /* HelpInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpInterfaceController.swift; sourceTree = "<group>"; };
+		7C463C6428A375BB00C6115F /* SendInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendInterfaceController.swift; sourceTree = "<group>"; };
+		7C511B3828A2EE5600C82849 /* PickerInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerInterfaceController.swift; sourceTree = "<group>"; };
+		7C511B3A28A2FB4000C82849 /* OtherInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherInterfaceController.swift; sourceTree = "<group>"; };
+		7C511B3C28A3005F00C82849 /* MotionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionData.swift; sourceTree = "<group>"; };
+		7C65084528A87EF4008C9C27 /* Automatic Smart shot main logo-3.png 01-22-25-938.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Automatic Smart shot main logo-3.png 01-22-25-938.png"; path = "../../Automatic Smart shot main logo-3.png 01-22-25-938.png"; sourceTree = "<group>"; };
+		7C83F29F28A4397900A58F84 /* ConnectAnimation.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ConnectAnimation.sks; sourceTree = "<group>"; };
+		7CCBA23E28A8297600FC5BCD /* 48x48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 48x48.png; path = ../../../Downloads/48x48.png; sourceTree = "<group>"; };
+		7CCBA24028A829A600FC5BCD /* 55x55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 55x55.png; path = ../../../Downloads/55x55.png; sourceTree = "<group>"; };
+		7CCBA24228A829C000FC5BCD /* 66x66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 66x66.png; path = ../../../Downloads/66x66.png; sourceTree = "<group>"; };
+		7CCBA24428A829E700FC5BCD /* 87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 87x87.png; path = ../../../Downloads/87x87.png; sourceTree = "<group>"; };
+		7CCBA24828A82A1700FC5BCD /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 80x80.png; path = ../../../Downloads/80x80.png; sourceTree = "<group>"; };
+		7CCBA24A28A82A2900FC5BCD /* 80x80 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "80x80 copy.png"; path = "../../../Downloads/80x80 copy.png"; sourceTree = "<group>"; };
+		7CCBA24C28A82A6D00FC5BCD /* 172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 172.png; path = ../../../Downloads/172.png; sourceTree = "<group>"; };
+		7CCBA25028A82A9600FC5BCD /* 100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 100.png; path = ../../../Downloads/100.png; sourceTree = "<group>"; };
+		7CCBA25228A82AA700FC5BCD /* 102.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 102.png; path = ../../../Downloads/102.png; sourceTree = "<group>"; };
+		7CCBA25428A82AB800FC5BCD /* 196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 196.png; path = ../../../Downloads/196.png; sourceTree = "<group>"; };
+		7CD4B44828A768EA002DCC89 /* HomeAnimation.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = HomeAnimation.sks; path = "Automatic Data Collector WatchKit Extension/HomeAnimation.sks"; sourceTree = SOURCE_ROOT; };
+		7CEBF0BF28A1DE2000ADBA4F /* Automatic Data Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Automatic Data Collector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEBF0C228A1DE2000ADBA4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CEBF0C428A1DE2000ADBA4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CEBF0C628A1DE2000ADBA4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CEBF0C928A1DE2000ADBA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CEBF0CB28A1DE2100ADBA4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CEBF0CE28A1DE2100ADBA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CEBF0D028A1DE2100ADBA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CEBF0D528A1DE2100ADBA4F /* Automatic Data CollectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Automatic Data CollectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEBF0D928A1DE2100ADBA4F /* Automatic_Data_CollectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_Data_CollectorTests.swift; sourceTree = "<group>"; };
+		7CEBF0DF28A1DE2100ADBA4F /* Automatic Data CollectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Automatic Data CollectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEBF0E328A1DE2100ADBA4F /* Automatic_Data_CollectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_Data_CollectorUITests.swift; sourceTree = "<group>"; };
+		7CEBF0E528A1DE2100ADBA4F /* Automatic_Data_CollectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_Data_CollectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CEBF0E928A1DE2100ADBA4F /* Automatic Data Collector WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Automatic Data Collector WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEBF0EF28A1DE2100ADBA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7CEBF0F128A1DE2200ADBA4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CEBF0F728A1DE2200ADBA4F /* Automatic Data Collector WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Automatic Data Collector WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEBF0FC28A1DE2200ADBA4F /* HomeInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInterfaceController.swift; sourceTree = "<group>"; };
+		7CEBF0FE28A1DE2200ADBA4F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		7CEBF10028A1DE2200ADBA4F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		7CEBF10228A1DE2200ADBA4F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		7CEBF10428A1DE2300ADBA4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CEBF10628A1DE2300ADBA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CEBF10728A1DE2300ADBA4F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7CEBF10C28A1DE2300ADBA4F /* Automatic Data Collector WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Automatic Data Collector WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEBF11028A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_Data_Collector_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		7CEBF11628A1DE2300ADBA4F /* Automatic Data Collector WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Automatic Data Collector WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEBF11A28A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_Data_Collector_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		7CEBF11C28A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automatic_Data_Collector_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CEBF14728A1ED1E00ADBA4F /* HomeAnimation.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HomeAnimation.sks; sourceTree = "<group>"; };
+		7CFAAE9D28A367C700A8A165 /* ChoiceInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CEBF0BC28A1DE2000ADBA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF0D228A1DE2100ADBA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF0DC28A1DE2100ADBA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF0F428A1DE2200ADBA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF10928A1DE2300ADBA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF11328A1DE2300ADBA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CEBF0B628A1DE2000ADBA4F = {
+			isa = PBXGroup;
+			children = (
+				7CEBF0C128A1DE2000ADBA4F /* Automatic Data Collector */,
+				7CEBF0D828A1DE2100ADBA4F /* Automatic Data CollectorTests */,
+				7CEBF0E228A1DE2100ADBA4F /* Automatic Data CollectorUITests */,
+				7CEBF0ED28A1DE2100ADBA4F /* Automatic Data Collector WatchKit App */,
+				7CEBF0FB28A1DE2200ADBA4F /* Automatic Data Collector WatchKit Extension */,
+				7CEBF10F28A1DE2300ADBA4F /* Automatic Data Collector WatchKit AppTests */,
+				7CEBF11928A1DE2300ADBA4F /* Automatic Data Collector WatchKit AppUITests */,
+				7CEBF0C028A1DE2000ADBA4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CEBF0C028A1DE2000ADBA4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CEBF0BF28A1DE2000ADBA4F /* Automatic Data Collector.app */,
+				7CEBF0D528A1DE2100ADBA4F /* Automatic Data CollectorTests.xctest */,
+				7CEBF0DF28A1DE2100ADBA4F /* Automatic Data CollectorUITests.xctest */,
+				7CEBF0E928A1DE2100ADBA4F /* Automatic Data Collector WatchKit App.app */,
+				7CEBF0F728A1DE2200ADBA4F /* Automatic Data Collector WatchKit Extension.appex */,
+				7CEBF10C28A1DE2300ADBA4F /* Automatic Data Collector WatchKit AppTests.xctest */,
+				7CEBF11628A1DE2300ADBA4F /* Automatic Data Collector WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CEBF0C128A1DE2000ADBA4F /* Automatic Data Collector */ = {
+			isa = PBXGroup;
+			children = (
+				7CEBF0C228A1DE2000ADBA4F /* AppDelegate.swift */,
+				7CEBF0C428A1DE2000ADBA4F /* SceneDelegate.swift */,
+				7CEBF0C628A1DE2000ADBA4F /* ViewController.swift */,
+				7CEBF0C828A1DE2000ADBA4F /* Main.storyboard */,
+				7CEBF0CB28A1DE2100ADBA4F /* Assets.xcassets */,
+				7CD4B44828A768EA002DCC89 /* HomeAnimation.sks */,
+				7CEBF0CD28A1DE2100ADBA4F /* LaunchScreen.storyboard */,
+				7C00FDE228A827CB00E6136A /* Automatic Smart shot main logo-14.png */,
+				7C00FDE028A827BA00E6136A /* Automatic Smart shot main logo-13.png */,
+				7C00FDDE28A827A500E6136A /* Automatic Smart shot main logo-12.png */,
+				7C00FDDC28A8278B00E6136A /* Automatic Smart shot main logo-11.png */,
+				7C00FDDA28A8276E00E6136A /* Automatic Smart shot main logo-10.png */,
+				7C00FDD828A8273900E6136A /* Automatic Smart shot main logo-9.png */,
+				7C00FDD628A8272400E6136A /* Automatic Smart shot main logo-8.png */,
+				7C00FDD428A8270E00E6136A /* Automatic Smart shot main logo-7.png */,
+				7C00FDD228A826F600E6136A /* Automatic Smart shot main logo-6.png */,
+				7C00FDD028A826DA00E6136A /* Automatic Smart shot main logo-5.png */,
+				7C2DF8E228A77B80003C2153 /* Automatic Smart shot main logo-3.png 01-22-25-938.png */,
+				7C00FDCE28A8269800E6136A /* Automatic Smart shot main logo-4.png */,
+				7C00FDCC28A8261F00E6136A /* Automatic Smart shot main logo-3.png */,
+				7C2DF8DE28A77AE2003C2153 /* Automatic Smart shot main logo-3.png 01-22-25-946.png */,
+				7CEBF0D028A1DE2100ADBA4F /* Info.plist */,
+			);
+			path = "Automatic Data Collector";
+			sourceTree = "<group>";
+		};
+		7CEBF0D828A1DE2100ADBA4F /* Automatic Data CollectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CEBF0D928A1DE2100ADBA4F /* Automatic_Data_CollectorTests.swift */,
+			);
+			path = "Automatic Data CollectorTests";
+			sourceTree = "<group>";
+		};
+		7CEBF0E228A1DE2100ADBA4F /* Automatic Data CollectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CEBF0E328A1DE2100ADBA4F /* Automatic_Data_CollectorUITests.swift */,
+				7CEBF0E528A1DE2100ADBA4F /* Automatic_Data_CollectorUITestsLaunchTests.swift */,
+			);
+			path = "Automatic Data CollectorUITests";
+			sourceTree = "<group>";
+		};
+		7CEBF0ED28A1DE2100ADBA4F /* Automatic Data Collector WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7CCBA23E28A8297600FC5BCD /* 48x48.png */,
+				7CCBA24028A829A600FC5BCD /* 55x55.png */,
+				7CCBA25428A82AB800FC5BCD /* 196.png */,
+				7CCBA25028A82A9600FC5BCD /* 100.png */,
+				7CCBA25228A82AA700FC5BCD /* 102.png */,
+				7CCBA24A28A82A2900FC5BCD /* 80x80 copy.png */,
+				7CCBA24428A829E700FC5BCD /* 87x87.png */,
+				7CCBA24C28A82A6D00FC5BCD /* 172.png */,
+				7CCBA24828A82A1700FC5BCD /* 80x80.png */,
+				7CCBA24228A829C000FC5BCD /* 66x66.png */,
+				7C65084528A87EF4008C9C27 /* Automatic Smart shot main logo-3.png 01-22-25-938.png */,
+				7CEBF0EE28A1DE2100ADBA4F /* Interface.storyboard */,
+				7CEBF0F128A1DE2200ADBA4F /* Assets.xcassets */,
+			);
+			path = "Automatic Data Collector WatchKit App";
+			sourceTree = "<group>";
+		};
+		7CEBF0FB28A1DE2200ADBA4F /* Automatic Data Collector WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7CEBF0FC28A1DE2200ADBA4F /* HomeInterfaceController.swift */,
+				7C463C6428A375BB00C6115F /* SendInterfaceController.swift */,
+				7C082AE828A223D30089E9FD /* InformationInterfaceController.swift */,
+				7C463C6228A3752400C6115F /* HelpInterfaceController.swift */,
+				7C511B3828A2EE5600C82849 /* PickerInterfaceController.swift */,
+				7C511B3A28A2FB4000C82849 /* OtherInterfaceController.swift */,
+				7CFAAE9D28A367C700A8A165 /* ChoiceInterfaceController.swift */,
+				7C511B3C28A3005F00C82849 /* MotionData.swift */,
+				7C3FE03928A47C5D008AC5C2 /* ShotInterfaceController.swift */,
+				7CEBF0FE28A1DE2200ADBA4F /* ExtensionDelegate.swift */,
+				7CEBF10028A1DE2200ADBA4F /* NotificationController.swift */,
+				7CEBF10228A1DE2200ADBA4F /* ComplicationController.swift */,
+				7C83F29F28A4397900A58F84 /* ConnectAnimation.sks */,
+				7CEBF14728A1ED1E00ADBA4F /* HomeAnimation.sks */,
+				7CEBF10428A1DE2300ADBA4F /* Assets.xcassets */,
+				7CEBF10628A1DE2300ADBA4F /* Info.plist */,
+				7CEBF10728A1DE2300ADBA4F /* PushNotificationPayload.apns */,
+			);
+			path = "Automatic Data Collector WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7CEBF10F28A1DE2300ADBA4F /* Automatic Data Collector WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CEBF11028A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppTests.swift */,
+			);
+			path = "Automatic Data Collector WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		7CEBF11928A1DE2300ADBA4F /* Automatic Data Collector WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CEBF11A28A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppUITests.swift */,
+				7CEBF11C28A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "Automatic Data Collector WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CEBF0BE28A1DE2000ADBA4F /* Automatic Data Collector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEBF12828A1DE2300ADBA4F /* Build configuration list for PBXNativeTarget "Automatic Data Collector" */;
+			buildPhases = (
+				7CEBF0BB28A1DE2000ADBA4F /* Sources */,
+				7CEBF0BC28A1DE2000ADBA4F /* Frameworks */,
+				7CEBF0BD28A1DE2000ADBA4F /* Resources */,
+				7CEBF12728A1DE2300ADBA4F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CEBF0EC28A1DE2100ADBA4F /* PBXTargetDependency */,
+			);
+			name = "Automatic Data Collector";
+			productName = "Automatic Data Collector";
+			productReference = 7CEBF0BF28A1DE2000ADBA4F /* Automatic Data Collector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CEBF0D428A1DE2100ADBA4F /* Automatic Data CollectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEBF12B28A1DE2300ADBA4F /* Build configuration list for PBXNativeTarget "Automatic Data CollectorTests" */;
+			buildPhases = (
+				7CEBF0D128A1DE2100ADBA4F /* Sources */,
+				7CEBF0D228A1DE2100ADBA4F /* Frameworks */,
+				7CEBF0D328A1DE2100ADBA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CEBF0D728A1DE2100ADBA4F /* PBXTargetDependency */,
+			);
+			name = "Automatic Data CollectorTests";
+			productName = "Automatic Data CollectorTests";
+			productReference = 7CEBF0D528A1DE2100ADBA4F /* Automatic Data CollectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CEBF0DE28A1DE2100ADBA4F /* Automatic Data CollectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEBF12E28A1DE2300ADBA4F /* Build configuration list for PBXNativeTarget "Automatic Data CollectorUITests" */;
+			buildPhases = (
+				7CEBF0DB28A1DE2100ADBA4F /* Sources */,
+				7CEBF0DC28A1DE2100ADBA4F /* Frameworks */,
+				7CEBF0DD28A1DE2100ADBA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CEBF0E128A1DE2100ADBA4F /* PBXTargetDependency */,
+			);
+			name = "Automatic Data CollectorUITests";
+			productName = "Automatic Data CollectorUITests";
+			productReference = 7CEBF0DF28A1DE2100ADBA4F /* Automatic Data CollectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7CEBF0E828A1DE2100ADBA4F /* Automatic Data Collector WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEBF12428A1DE2300ADBA4F /* Build configuration list for PBXNativeTarget "Automatic Data Collector WatchKit App" */;
+			buildPhases = (
+				7CEBF0E728A1DE2100ADBA4F /* Resources */,
+				7CEBF12328A1DE2300ADBA4F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CEBF0FA28A1DE2200ADBA4F /* PBXTargetDependency */,
+			);
+			name = "Automatic Data Collector WatchKit App";
+			productName = "Automatic Data Collector WatchKit App";
+			productReference = 7CEBF0E928A1DE2100ADBA4F /* Automatic Data Collector WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		7CEBF0F628A1DE2200ADBA4F /* Automatic Data Collector WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEBF12028A1DE2300ADBA4F /* Build configuration list for PBXNativeTarget "Automatic Data Collector WatchKit Extension" */;
+			buildPhases = (
+				7CEBF0F328A1DE2200ADBA4F /* Sources */,
+				7CEBF0F428A1DE2200ADBA4F /* Frameworks */,
+				7CEBF0F528A1DE2200ADBA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Automatic Data Collector WatchKit Extension";
+			productName = "Automatic Data Collector WatchKit Extension";
+			productReference = 7CEBF0F728A1DE2200ADBA4F /* Automatic Data Collector WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		7CEBF10B28A1DE2300ADBA4F /* Automatic Data Collector WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEBF13128A1DE2300ADBA4F /* Build configuration list for PBXNativeTarget "Automatic Data Collector WatchKit AppTests" */;
+			buildPhases = (
+				7CEBF10828A1DE2300ADBA4F /* Sources */,
+				7CEBF10928A1DE2300ADBA4F /* Frameworks */,
+				7CEBF10A28A1DE2300ADBA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CEBF10E28A1DE2300ADBA4F /* PBXTargetDependency */,
+			);
+			name = "Automatic Data Collector WatchKit AppTests";
+			productName = "Automatic Data Collector WatchKit AppTests";
+			productReference = 7CEBF10C28A1DE2300ADBA4F /* Automatic Data Collector WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CEBF11528A1DE2300ADBA4F /* Automatic Data Collector WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEBF13428A1DE2300ADBA4F /* Build configuration list for PBXNativeTarget "Automatic Data Collector WatchKit AppUITests" */;
+			buildPhases = (
+				7CEBF11228A1DE2300ADBA4F /* Sources */,
+				7CEBF11328A1DE2300ADBA4F /* Frameworks */,
+				7CEBF11428A1DE2300ADBA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CEBF11828A1DE2300ADBA4F /* PBXTargetDependency */,
+			);
+			name = "Automatic Data Collector WatchKit AppUITests";
+			productName = "Automatic Data Collector WatchKit AppUITests";
+			productReference = 7CEBF11628A1DE2300ADBA4F /* Automatic Data Collector WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CEBF0B728A1DE2000ADBA4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7CEBF0BE28A1DE2000ADBA4F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7CEBF0D428A1DE2100ADBA4F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7CEBF0BE28A1DE2000ADBA4F;
+					};
+					7CEBF0DE28A1DE2100ADBA4F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7CEBF0BE28A1DE2000ADBA4F;
+					};
+					7CEBF0E828A1DE2100ADBA4F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7CEBF0F628A1DE2200ADBA4F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7CEBF10B28A1DE2300ADBA4F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7CEBF0F628A1DE2200ADBA4F;
+					};
+					7CEBF11528A1DE2300ADBA4F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7CEBF0E828A1DE2100ADBA4F;
+					};
+				};
+			};
+			buildConfigurationList = 7CEBF0BA28A1DE2000ADBA4F /* Build configuration list for PBXProject "Automatic Data Collector" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CEBF0B628A1DE2000ADBA4F;
+			productRefGroup = 7CEBF0C028A1DE2000ADBA4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CEBF0BE28A1DE2000ADBA4F /* Automatic Data Collector */,
+				7CEBF0D428A1DE2100ADBA4F /* Automatic Data CollectorTests */,
+				7CEBF0DE28A1DE2100ADBA4F /* Automatic Data CollectorUITests */,
+				7CEBF0E828A1DE2100ADBA4F /* Automatic Data Collector WatchKit App */,
+				7CEBF0F628A1DE2200ADBA4F /* Automatic Data Collector WatchKit Extension */,
+				7CEBF10B28A1DE2300ADBA4F /* Automatic Data Collector WatchKit AppTests */,
+				7CEBF11528A1DE2300ADBA4F /* Automatic Data Collector WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CEBF0BD28A1DE2000ADBA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD4B44928A768EA002DCC89 /* HomeAnimation.sks in Resources */,
+				7C2DF8DF28A77AE2003C2153 /* Automatic Smart shot main logo-3.png 01-22-25-946.png in Resources */,
+				7C00FDD528A8270E00E6136A /* Automatic Smart shot main logo-7.png in Resources */,
+				7C00FDCF28A8269800E6136A /* Automatic Smart shot main logo-4.png in Resources */,
+				7C00FDD928A8273900E6136A /* Automatic Smart shot main logo-9.png in Resources */,
+				7CEBF0CF28A1DE2100ADBA4F /* LaunchScreen.storyboard in Resources */,
+				7C00FDE328A827CB00E6136A /* Automatic Smart shot main logo-14.png in Resources */,
+				7C00FDDD28A8278B00E6136A /* Automatic Smart shot main logo-11.png in Resources */,
+				7CEBF0CC28A1DE2100ADBA4F /* Assets.xcassets in Resources */,
+				7C00FDD728A8272400E6136A /* Automatic Smart shot main logo-8.png in Resources */,
+				7C2DF8E328A77B80003C2153 /* Automatic Smart shot main logo-3.png 01-22-25-938.png in Resources */,
+				7C00FDDF28A827A500E6136A /* Automatic Smart shot main logo-12.png in Resources */,
+				7C00FDD328A826F600E6136A /* Automatic Smart shot main logo-6.png in Resources */,
+				7C00FDD128A826DA00E6136A /* Automatic Smart shot main logo-5.png in Resources */,
+				7CEBF0CA28A1DE2000ADBA4F /* Main.storyboard in Resources */,
+				7C00FDDB28A8276E00E6136A /* Automatic Smart shot main logo-10.png in Resources */,
+				7C00FDCD28A8261F00E6136A /* Automatic Smart shot main logo-3.png in Resources */,
+				7C00FDE128A827BA00E6136A /* Automatic Smart shot main logo-13.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF0D328A1DE2100ADBA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF0DD28A1DE2100ADBA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF0E728A1DE2100ADBA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C65084628A87EF4008C9C27 /* Automatic Smart shot main logo-3.png 01-22-25-938.png in Resources */,
+				7CCBA24D28A82A6D00FC5BCD /* 172.png in Resources */,
+				7CCBA23F28A8297600FC5BCD /* 48x48.png in Resources */,
+				7CCBA24B28A82A2900FC5BCD /* 80x80 copy.png in Resources */,
+				7CCBA24528A829E700FC5BCD /* 87x87.png in Resources */,
+				7CCBA25128A82A9600FC5BCD /* 100.png in Resources */,
+				7CEBF0F228A1DE2200ADBA4F /* Assets.xcassets in Resources */,
+				7CCBA25328A82AA700FC5BCD /* 102.png in Resources */,
+				7CCBA25528A82AB800FC5BCD /* 196.png in Resources */,
+				7CCBA24128A829A600FC5BCD /* 55x55.png in Resources */,
+				7CCBA24328A829C000FC5BCD /* 66x66.png in Resources */,
+				7CCBA24928A82A1700FC5BCD /* 80x80.png in Resources */,
+				7CEBF0F028A1DE2100ADBA4F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF0F528A1DE2200ADBA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEBF10528A1DE2300ADBA4F /* Assets.xcassets in Resources */,
+				7CEBF14828A1ED1E00ADBA4F /* HomeAnimation.sks in Resources */,
+				7C83F2A028A4397900A58F84 /* ConnectAnimation.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF10A28A1DE2300ADBA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF11428A1DE2300ADBA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CEBF0BB28A1DE2000ADBA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEBF0C728A1DE2000ADBA4F /* ViewController.swift in Sources */,
+				7CEBF0C328A1DE2000ADBA4F /* AppDelegate.swift in Sources */,
+				7CEBF0C528A1DE2000ADBA4F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF0D128A1DE2100ADBA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEBF0DA28A1DE2100ADBA4F /* Automatic_Data_CollectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF0DB28A1DE2100ADBA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEBF0E628A1DE2100ADBA4F /* Automatic_Data_CollectorUITestsLaunchTests.swift in Sources */,
+				7CEBF0E428A1DE2100ADBA4F /* Automatic_Data_CollectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF0F328A1DE2200ADBA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEBF10128A1DE2200ADBA4F /* NotificationController.swift in Sources */,
+				7CEBF10328A1DE2200ADBA4F /* ComplicationController.swift in Sources */,
+				7CEBF0FF28A1DE2200ADBA4F /* ExtensionDelegate.swift in Sources */,
+				7C511B3D28A3005F00C82849 /* MotionData.swift in Sources */,
+				7C463C6328A3752400C6115F /* HelpInterfaceController.swift in Sources */,
+				7C082AE928A223D30089E9FD /* InformationInterfaceController.swift in Sources */,
+				7C463C6528A375BB00C6115F /* SendInterfaceController.swift in Sources */,
+				7C3FE03A28A47C5D008AC5C2 /* ShotInterfaceController.swift in Sources */,
+				7CEBF0FD28A1DE2200ADBA4F /* HomeInterfaceController.swift in Sources */,
+				7C511B3928A2EE5600C82849 /* PickerInterfaceController.swift in Sources */,
+				7CFAAE9E28A367C700A8A165 /* ChoiceInterfaceController.swift in Sources */,
+				7C511B3B28A2FB4000C82849 /* OtherInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF10828A1DE2300ADBA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEBF11128A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEBF11228A1DE2300ADBA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEBF11B28A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppUITests.swift in Sources */,
+				7CEBF11D28A1DE2300ADBA4F /* Automatic_Data_Collector_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CEBF0D728A1DE2100ADBA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CEBF0BE28A1DE2000ADBA4F /* Automatic Data Collector */;
+			targetProxy = 7CEBF0D628A1DE2100ADBA4F /* PBXContainerItemProxy */;
+		};
+		7CEBF0E128A1DE2100ADBA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CEBF0BE28A1DE2000ADBA4F /* Automatic Data Collector */;
+			targetProxy = 7CEBF0E028A1DE2100ADBA4F /* PBXContainerItemProxy */;
+		};
+		7CEBF0EC28A1DE2100ADBA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CEBF0E828A1DE2100ADBA4F /* Automatic Data Collector WatchKit App */;
+			targetProxy = 7CEBF0EB28A1DE2100ADBA4F /* PBXContainerItemProxy */;
+		};
+		7CEBF0FA28A1DE2200ADBA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CEBF0F628A1DE2200ADBA4F /* Automatic Data Collector WatchKit Extension */;
+			targetProxy = 7CEBF0F928A1DE2200ADBA4F /* PBXContainerItemProxy */;
+		};
+		7CEBF10E28A1DE2300ADBA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CEBF0F628A1DE2200ADBA4F /* Automatic Data Collector WatchKit Extension */;
+			targetProxy = 7CEBF10D28A1DE2300ADBA4F /* PBXContainerItemProxy */;
+		};
+		7CEBF11828A1DE2300ADBA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CEBF0E828A1DE2100ADBA4F /* Automatic Data Collector WatchKit App */;
+			targetProxy = 7CEBF11728A1DE2300ADBA4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CEBF0C828A1DE2000ADBA4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CEBF0C928A1DE2000ADBA4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CEBF0CD28A1DE2100ADBA4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CEBF0CE28A1DE2100ADBA4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7CEBF0EE28A1DE2100ADBA4F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CEBF0EF28A1DE2100ADBA4F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CEBF11E28A1DE2300ADBA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CEBF11F28A1DE2300ADBA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7CEBF12128A1DE2300ADBA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Automatic Data Collector WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Automatic Data Collector WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Automatic_Data_Collector_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = Automatic_Data_Collector_WatchKit_Extension.ExtensionDelegate;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-Data-Collector.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		7CEBF12228A1DE2300ADBA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Automatic Data Collector WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Automatic Data Collector WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Automatic_Data_Collector_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = Automatic_Data_Collector_WatchKit_Extension.ExtensionDelegate;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-Data-Collector.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		7CEBF12528A1DE2300ADBA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Automatic_Data_Collector_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Automatic Data Collector WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "juliendev.Automatic-Data-Collector";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-Data-Collector.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		7CEBF12628A1DE2300ADBA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Automatic_Data_Collector_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Automatic Data Collector WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "juliendev.Automatic-Data-Collector";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-Data-Collector.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		7CEBF12928A1DE2300ADBA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Automatic Data Collector/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-Data-Collector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CEBF12A28A1DE2300ADBA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Automatic Data Collector/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-Data-Collector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CEBF12C28A1DE2300ADBA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-Data-CollectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automatic Data Collector.app/Automatic Data Collector";
+			};
+			name = Debug;
+		};
+		7CEBF12D28A1DE2300ADBA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-Data-CollectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automatic Data Collector.app/Automatic Data Collector";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CEBF12F28A1DE2300ADBA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-Data-CollectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Automatic Data Collector";
+			};
+			name = Debug;
+		};
+		7CEBF13028A1DE2300ADBA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-Data-CollectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Automatic Data Collector";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CEBF13228A1DE2300ADBA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-Data-Collector-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automatic Data Collector WatchKit Extension.appex/Automatic Data Collector WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		7CEBF13328A1DE2300ADBA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-Data-Collector-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automatic Data Collector WatchKit Extension.appex/Automatic Data Collector WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		7CEBF13528A1DE2300ADBA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-Data-Collector-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Automatic Data Collector WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		7CEBF13628A1DE2300ADBA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q6VX79UV28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "juliendev.Automatic-Data-Collector-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Automatic Data Collector WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CEBF0BA28A1DE2000ADBA4F /* Build configuration list for PBXProject "Automatic Data Collector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEBF11E28A1DE2300ADBA4F /* Debug */,
+				7CEBF11F28A1DE2300ADBA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEBF12028A1DE2300ADBA4F /* Build configuration list for PBXNativeTarget "Automatic Data Collector WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEBF12128A1DE2300ADBA4F /* Debug */,
+				7CEBF12228A1DE2300ADBA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEBF12428A1DE2300ADBA4F /* Build configuration list for PBXNativeTarget "Automatic Data Collector WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEBF12528A1DE2300ADBA4F /* Debug */,
+				7CEBF12628A1DE2300ADBA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEBF12828A1DE2300ADBA4F /* Build configuration list for PBXNativeTarget "Automatic Data Collector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEBF12928A1DE2300ADBA4F /* Debug */,
+				7CEBF12A28A1DE2300ADBA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEBF12B28A1DE2300ADBA4F /* Build configuration list for PBXNativeTarget "Automatic Data CollectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEBF12C28A1DE2300ADBA4F /* Debug */,
+				7CEBF12D28A1DE2300ADBA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEBF12E28A1DE2300ADBA4F /* Build configuration list for PBXNativeTarget "Automatic Data CollectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEBF12F28A1DE2300ADBA4F /* Debug */,
+				7CEBF13028A1DE2300ADBA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEBF13128A1DE2300ADBA4F /* Build configuration list for PBXNativeTarget "Automatic Data Collector WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEBF13228A1DE2300ADBA4F /* Debug */,
+				7CEBF13328A1DE2300ADBA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEBF13428A1DE2300ADBA4F /* Build configuration list for PBXNativeTarget "Automatic Data Collector WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEBF13528A1DE2300ADBA4F /* Debug */,
+				7CEBF13628A1DE2300ADBA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CEBF0B728A1DE2000ADBA4F /* Project object */;
+}

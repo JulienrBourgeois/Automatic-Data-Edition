@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="20037" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="20006"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomeInterfaceController-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="HomeInterfaceController" fullBounds="YES" fullScreen="YES" id="AgC-eL-Hgc" customClass="HomeInterfaceController" customModule="Automatic_Data_Collector_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="162" alignment="left" layout="vertical" spacing="12" id="SQx-Y1-6QQ">
+                            <items>
+                                <spriteKitScene height="126" alignment="left" id="UnR-nG-drQ"/>
+                                <button width="95" height="25" alignment="center" verticalAlignment="bottom" title="Start" id="wUz-6D-T0a">
+                                    <color key="titleColor" red="0.9405197501" green="0.78006146409999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="backgroundColor" red="0.085976967004814497" green="0.085976967004814497" blue="0.085976967004814497" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="light" pointSize="15"/>
+                                    <connections>
+                                        <action selector="startButtonClicked" destination="AgC-eL-Hgc" id="cyi-Jf-OqO"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="spriteScene" destination="UnR-nG-drQ" id="fCb-Or-gKu"/>
+                        <outlet property="startButton" destination="wUz-6D-T0a" id="KJY-u6-s9F"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="41" y="1084"/>
+        </scene>
+        <!--InformationInterfaceController-->
+        <scene sceneID="wi6-We-8tK">
+            <objects>
+                <controller identifier="InformationInterfaceController" fullBounds="YES" id="SJV-sz-ncY" customClass="InformationInterfaceController" customModule="Automatic_Data_Collector_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="ckV-lX-gvD">
+                            <items>
+                                <label width="136" height="53" alignment="center" text="Please enter your name below: " numberOfLines="2" id="ZNd-Zx-duC">
+                                    <color key="textColor" red="0.94031810760000001" green="0.78552866939999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="14"/>
+                                </label>
+                                <textField width="136" height="35" alignment="center" verticalAlignment="center" id="QLZ-pc-cP4">
+                                    <color key="textColor" red="0.9405197501" green="0.78006146409999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <connections>
+                                        <action selector="nameInputChanged:" destination="SJV-sz-ncY" id="1My-rc-Uho"/>
+                                    </connections>
+                                </textField>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="18"/>
+                        </group>
+                        <button width="99" height="30" alignment="center" verticalAlignment="center" title="Continue" id="nBR-Q6-xdK">
+                            <color key="titleColor" red="0.9405197501" green="0.78006146409999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="font" type="system" weight="light" pointSize="15"/>
+                            <connections>
+                                <action selector="continueClicked" destination="SJV-sz-ncY" id="ZyJ-pN-89t"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="continueButton" destination="nBR-Q6-xdK" id="bdF-15-5YC"/>
+                        <outlet property="nameInput" destination="QLZ-pc-cP4" id="Nfx-Yp-ujc"/>
+                        <outlet property="nameLabel" destination="ZNd-Zx-duC" id="Cwg-vD-evO"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="333" y="1084"/>
+        </scene>
+        <!--PickerInterfaceController-->
+        <scene sceneID="FRF-FI-Tca">
+            <objects>
+                <controller identifier="PickerInterfaceController" fullBounds="YES" id="kJE-uL-Lr7" customClass="PickerInterfaceController" customModule="Automatic_Data_Collector_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="LY8-nP-xEV">
+                            <items>
+                                <label width="100" height="35" alignment="left" text="Name" textAlignment="center" numberOfLines="2" id="ZPx-g7-EtQ">
+                                    <color key="textColor" red="0.9405197501" green="0.78006146409999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="18"/>
+                                </label>
+                                <button width="26" height="30" alignment="right" verticalAlignment="center" backgroundImage="pencil.circle.fill" catalog="system" id="Qye-gY-dao">
+                                    <color key="backgroundColor" red="0.9405197501" green="0.78006146409999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <connections>
+                                        <action selector="changeNameButtonPressed" destination="kJE-uL-Lr7" id="MkH-ba-Avc"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="136" height="111" alignment="center" layout="vertical" spacing="10" id="JtI-VK-fB6">
+                            <items>
+                                <button width="133" height="35" alignment="left" title="Record Shots" id="0V7-P5-OXw">
+                                    <color key="titleColor" red="0.9405197501" green="0.78006146409999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="light" pointSize="15"/>
+                                    <connections>
+                                        <action selector="shotButtonPressed" destination="kJE-uL-Lr7" id="vI8-hB-6hs"/>
+                                    </connections>
+                                </button>
+                                <label alignment="center" text="OR" id="htF-7S-2ml">
+                                    <color key="textColor" red="0.9405197501" green="0.78006146409999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="16"/>
+                                </label>
+                                <button width="1" alignment="left" title="Record Others" id="td8-MZ-Aq0">
+                                    <color key="titleColor" red="0.9405197501" green="0.78006146409999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="light" pointSize="15"/>
+                                    <connections>
+                                        <action selector="otherButtonPressed" destination="kJE-uL-Lr7" id="9L6-lF-htH"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="changeNameButton" destination="Qye-gY-dao" id="iSl-P0-MrO"/>
+                        <outlet property="nameLabel" destination="ZPx-g7-EtQ" id="Its-aj-TmI"/>
+                        <outlet property="otherButton" destination="td8-MZ-Aq0" id="UUE-z6-u0g"/>
+                        <outlet property="shotButton" destination="0V7-P5-OXw" id="Nky-MT-GPs"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="606" y="1083"/>
+        </scene>
+        <!--ChoiceInterfaceController-->
+        <scene sceneID="1Bh-lL-D8D">
+            <objects>
+                <controller identifier="ChoiceInterfaceController" id="WlB-7k-Zdf" customClass="ChoiceInterfaceController" customModule="Automatic_Data_Collector_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" spacing="21" id="VfT-1M-s7L">
+                            <items>
+                                <label width="136" height="47" alignment="center" text="Delete these files?" numberOfLines="4" id="CQ3-Iw-z8w">
+                                    <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="17"/>
+                                </label>
+                                <button width="1" alignment="center" verticalAlignment="center" title="Yes" id="dGH-0x-u2p">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="21"/>
+                                    <connections>
+                                        <action selector="yesButtonClicked" destination="WlB-7k-Zdf" id="kVw-gu-ZZE"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="questionLabel" destination="CQ3-Iw-z8w" id="m58-Wp-7eA"/>
+                        <outlet property="yesButton" destination="dGH-0x-u2p" id="5zQ-g7-fYT"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="623" y="1559"/>
+        </scene>
+        <!--SendInterfaceController-->
+        <scene sceneID="E7a-Wb-JPs">
+            <objects>
+                <controller identifier="SendInterfaceController" fullScreen="YES" id="uhG-iX-iYg" customClass="SendInterfaceController" customModule="Automatic_Data_Collector_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" spacing="9" id="9BQ-Pc-d67">
+                            <items>
+                                <label alignment="center" verticalAlignment="center" text="Send files?" id="Qr6-dq-Mhv">
+                                    <color key="textColor" name="AccentColor"/>
+                                </label>
+                                <spriteKitScene height="80" alignment="center" verticalAlignment="center" id="b14-fE-HMj"/>
+                                <button width="87" height="31" alignment="center" verticalAlignment="center" title="Send" id="74G-wO-fdk">
+                                    <color key="titleColor" name="AccentColor"/>
+                                    <connections>
+                                        <action selector="sendButtonPressed" destination="uhG-iX-iYg" id="ruM-cc-iKt"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="32" bottom="0.0"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="sendButton" destination="74G-wO-fdk" id="MP9-Ra-jha"/>
+                        <outlet property="spriteScene" destination="b14-fE-HMj" id="Jdb-Zs-hwz"/>
+                        <outlet property="statusLabel" destination="Qr6-dq-Mhv" id="42h-3e-TFR"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="371" y="1559"/>
+        </scene>
+        <!--HelpInterfaceController-->
+        <scene sceneID="bWF-GT-wxQ">
+            <objects>
+                <controller identifier="HelpInterfaceController" alwaysBounce="YES" id="fsi-Ry-eB9" customClass="HelpInterfaceController" customModule="Automatic_Data_Collector_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="796" alignment="left" layout="vertical" id="Zla-gX-2w5">
+                            <items>
+                                <label alignment="center" text="Tutorial" id="1Z7-yn-lBd">
+                                    <color key="textColor" red="0.91750091310000004" green="0.75176086019999999" blue="0.00015081793689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="18"/>
+                                </label>
+                                <label alignment="left" text="1) Other data is every movement that is NOT a shot" numberOfLines="0" id="tRM-FI-7bS">
+                                    <color key="textColor" red="0.91750091310000004" green="0.75176086019999999" blue="0.00015081793689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" pointSize="10"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="helpLabel" destination="tRM-FI-7bS" id="PPz-IM-c52"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="865" y="1885.5"/>
+        </scene>
+        <!--OtherInterfaceController-->
+        <scene sceneID="cPE-0b-jKW">
+            <objects>
+                <controller identifier="OtherInterfaceController" fullBounds="YES" fullScreen="YES" id="oox-Xn-aMs" customClass="OtherInterfaceController" customModule="Automatic_Data_Collector_WatchKit_Extension">
+                    <items>
+                        <group width="136" height="47" alignment="center" layout="vertical" id="BIX-0n-ggi">
+                            <items>
+                                <label alignment="left" text="Other Recording" id="VOe-Vf-kgd">
+                                    <color key="textColor" red="0.91750091310000004" green="0.75176086019999999" blue="0.00015081793689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="16"/>
+                                </label>
+                                <label width="136" height="38" alignment="center" text="Files:" id="zhH-0Y-0wW">
+                                    <color key="textColor" red="0.9405197501" green="0.78006146409999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="light" pointSize="16"/>
+                                </label>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="28"/>
+                        </group>
+                        <group width="136" height="117" alignment="center" verticalAlignment="center" layout="vertical" spacing="8" id="GmP-FK-FnM">
+                            <items>
+                                <button width="73" height="30" alignment="center" title="Record" id="cPh-y3-XWR">
+                                    <color key="titleColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="startButtonPressed" destination="oox-Xn-aMs" id="G6J-YM-N68"/>
+                                    </connections>
+                                </button>
+                                <button width="72" height="32" alignment="center" verticalAlignment="center" alpha="0.0" title="Stop" id="ntB-H7-L1L">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="stopButtonPressed" destination="oox-Xn-aMs" id="PS5-6m-o4V"/>
+                                    </connections>
+                                </button>
+                                <group width="1" height="27" alignment="center" verticalAlignment="bottom" spacing="14" id="U8i-jv-9ch">
+                                    <items>
+                                        <button width="39" height="26" alignment="center" verticalAlignment="center" backgroundImage="info.circle" catalog="system" id="Crl-9A-30n">
+                                            <color key="titleColor" red="0.9405197501" green="0.78006146409999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.9405197501" green="0.78006146409999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <action selector="informationButtonPressed" destination="oox-Xn-aMs" id="lDY-yy-qPU"/>
+                                            </connections>
+                                        </button>
+                                        <button width="32" height="37" alignment="center" verticalAlignment="center" backgroundImage="trash" catalog="system" id="lYE-yV-ubk">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="trashButtonPressed" destination="oox-Xn-aMs" id="v6t-WI-3cx"/>
+                                            </connections>
+                                        </button>
+                                        <button width="32" height="28" alignment="center" verticalAlignment="center" backgroundImage="square.and.arrow.up" catalog="system" id="74K-WL-bAX">
+                                            <color key="titleColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" name="AccentColor"/>
+                                            <connections>
+                                                <action selector="sendButtonPressed" destination="oox-Xn-aMs" id="Jj1-yK-Hf9"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="30"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="informationButton" destination="Crl-9A-30n" id="IOB-mP-HGV"/>
+                        <outlet property="otherRecorderLabel" destination="zhH-0Y-0wW" id="bUv-gJ-IkW"/>
+                        <outlet property="sendButton" destination="74K-WL-bAX" id="rh9-0O-rWM"/>
+                        <outlet property="startButton" destination="cPh-y3-XWR" id="PR5-C3-3Ut"/>
+                        <outlet property="stopButton" destination="ntB-H7-L1L" id="QQa-l9-81d"/>
+                        <outlet property="trashButton" destination="lYE-yV-ubk" id="bEq-YW-d7o"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="873" y="1191"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Automatic_Data_Collector_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="Niz-AI-uX2">
+            <objects>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="Automatic_Data_Collector_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="345"/>
+        </scene>
+        <!--ShotInterfaceController-->
+        <scene sceneID="dhv-vE-cAw">
+            <objects>
+                <controller identifier="ShotInterfaceController" fullBounds="YES" fullScreen="YES" id="mkr-gR-55Z" customClass="ShotInterfaceController" customModule="Automatic_Data_Collector_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="4mC-91-weG">
+                            <items>
+                                <label alignment="center" text="Shot Recording" id="6TC-fE-ljc">
+                                    <color key="textColor" red="0.91750091310000004" green="0.75176086019999999" blue="0.00015081793689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="16"/>
+                                </label>
+                                <label alignment="left" text="Files:" id="RV7-DU-xeD">
+                                    <color key="textColor" red="0.91750091310000004" green="0.75176086019999999" blue="0.00015081793689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="16"/>
+                                </label>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="19"/>
+                        </group>
+                        <button width="76" height="32" alignment="center" verticalAlignment="center" title="Record" id="iqT-dt-55U">
+                            <color key="titleColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="recordButtonPressed" destination="mkr-gR-55Z" id="nhf-7R-2LC"/>
+                            </connections>
+                        </button>
+                        <group width="134" height="43" alignment="center" verticalAlignment="bottom" spacing="14" id="Igs-yf-dp7">
+                            <items>
+                                <button width="39" height="26" alignment="center" verticalAlignment="center" backgroundImage="info.circle" catalog="system" id="sgd-e4-bLS">
+                                    <color key="backgroundColor" red="0.91750091310000004" green="0.75176086019999999" blue="0.00015081793689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <connections>
+                                        <action selector="informationButtonPressed" destination="mkr-gR-55Z" id="EVM-V1-zRr"/>
+                                    </connections>
+                                </button>
+                                <button width="32" height="27" alignment="center" verticalAlignment="center" backgroundImage="trash" catalog="system" id="wGe-HF-1HC">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <connections>
+                                        <action selector="trashButtonPressed" destination="mkr-gR-55Z" id="Y0w-gS-4v8"/>
+                                    </connections>
+                                </button>
+                                <button width="32" height="28" alignment="center" verticalAlignment="center" backgroundImage="square.and.arrow.up" catalog="system" id="2fo-Oa-SiZ">
+                                    <color key="backgroundColor" name="AccentColor"/>
+                                    <connections>
+                                        <action selector="sendButtonPressed" destination="mkr-gR-55Z" id="U7t-LU-rsq"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="informationButton" destination="sgd-e4-bLS" id="qdr-Rk-avx"/>
+                        <outlet property="recordButton" destination="iqT-dt-55U" id="qUH-Q4-C0M"/>
+                        <outlet property="sendButton" destination="2fo-Oa-SiZ" id="dFE-Hz-pyV"/>
+                        <outlet property="shotRecorderLabel" destination="RV7-DU-xeD" id="Mhc-9S-RnT"/>
+                        <outlet property="trashButton" destination="wGe-HF-1HC" id="N92-lD-iVa"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="873" y="862"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
+        <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <image name="trash" catalog="system" width="114" height="128"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,77 @@
+{
+  "assets" : [
+    {
+      "filename" : "AI.imageset",
+      "unassigned" : true
+    },
+    {
+      "filename" : "ball.imageset",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Circular.imageset",
+      "idiom" : "watch",
+      "role" : "circular"
+    },
+    {
+      "filename" : "Extra Large.imageset",
+      "idiom" : "watch",
+      "role" : "extra-large"
+    },
+    {
+      "filename" : "free_icon_1.imageset",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Graphic Bezel.imageset",
+      "idiom" : "watch",
+      "role" : "graphic-bezel"
+    },
+    {
+      "filename" : "Graphic Circular.imageset",
+      "idiom" : "watch",
+      "role" : "graphic-circular"
+    },
+    {
+      "filename" : "Graphic Corner.imageset",
+      "idiom" : "watch",
+      "role" : "graphic-corner"
+    },
+    {
+      "filename" : "Graphic Extra Large.imageset",
+      "idiom" : "watch",
+      "role" : "graphic-extra-large"
+    },
+    {
+      "filename" : "Graphic Large Rectangular.imageset",
+      "idiom" : "watch",
+      "role" : "graphic-large-rectangular"
+    },
+    {
+      "filename" : "iphone-icon-png-13.jpg.imageset"
+    },
+    {
+      "filename" : "Modular.imageset",
+      "idiom" : "watch",
+      "role" : "modular"
+    },
+    {
+      "filename" : "phone-1.imageset"
+    },
+    {
+      "filename" : "Utilitarian.imageset",
+      "idiom" : "watch",
+      "role" : "utilitarian"
+    },
+    {
+      "filename" : "watch.imageset"
+    },
+    {
+      "filename" : "WIFI_icon.svg.imageset"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
